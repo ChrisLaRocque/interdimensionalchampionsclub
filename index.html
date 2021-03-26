@@ -53,6 +53,7 @@
 		}
 		h2 {
 			padding-left: 10vw;
+			padding-right: 5vw;
 		}
 		p {
 			padding: 0 10vw;
@@ -66,6 +67,17 @@
 			border-radius: 2px;
 			padding: 1rem;
 			font-size: 1.3rem;
+		}
+		.button-container > a {
+			display: block;
+			text-align: center;
+		}
+		.button-container > a > button {
+			text-align: left;
+			margin-bottom: 20px;
+		}
+		section > div > h2 {
+			padding: 10px 0;
 		}
 		@media only screen and (max-width: 600px) {
 			section {
@@ -113,15 +125,37 @@
 	<section>
 		<div>
 			<h2>Donate to a good cause</h2>
-			<a href="https://nul.org/index.php/donate">
-				<button>National Urban League</button>
-			</a>
-			<a href="https://interland3.donorperfect.net/weblink/WebLink.aspx?name=E102192&id=1">
-				<button>Asian American Legal Defense and Education Fund</button>
-			</a>
-			<a href="https://act.naacpldf.org/p/salsa/donation/common/public/?donate_page_KEY=15780">
-				<button>NAACP Legal Defense and Educational Fund</button>
-			</a>
+			<div class="button-container">
+				<a href="https://nul.org/index.php/donate">
+					<button>National Urban League</button>
+				</a>
+				<a href="https://interland3.donorperfect.net/weblink/WebLink.aspx?name=E102192&id=1">
+					<button>Asian American Legal Defense<br>and Education Fund</button>
+				</a>
+				<a href="https://act.naacpldf.org/p/salsa/donation/common/public/?donate_page_KEY=15780">
+					<button>NAACP Legal Defense<br>and Educational Fund</button>
+				</a>
+			</div>
+		</div>
+		<div>
+			<h2>Shameless self promotion</h2>
+			<div class="button-container">	
+				<a href="https://pitypattern.bandcamp.com/">
+					<button>Pity Pattern</button>
+				</a>
+				<a href="https://headstay.bandcamp.com/releases">
+					<button>Headstay</button>
+				</a>
+				<a href="https://music.prayforsound.com/album/waves">
+					<button>Pray For Sound</button>
+				</a>
+				<a href="https://thecolorandsound.bandcamp.com/">
+					<button>The Color and Sound</button>
+				</a>
+				<a href="mailto:interdimensionalchampionsclub@gmail.com">
+					<button>Contact the dude who owns this domain to talk straight ca$h.</button>
+				</a>
+			</div>
 		</div>
 	</section>
 </body>

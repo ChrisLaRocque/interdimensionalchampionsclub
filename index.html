@@ -30,7 +30,7 @@
 			justify-content: center;
 			
 		}
-		strong, h1 {
+		.text-container > strong, h2 {
 			font-size: 3vh;
 		}
 		.text-container {
@@ -39,7 +39,7 @@
 		video {
 			width: 50%;
 		}
-		h1:before {
+		.text-container > a > h2:before {
 			content: '- ';
 		}
 		/* h1:after {
@@ -51,7 +51,7 @@
 			/* text-decoration: none; */
 			color: inherit;
 		}
-		h2 {
+		h3 {
 			padding-left: 10vw;
 			padding-right: 5vw;
 		}
@@ -76,7 +76,7 @@
 			text-align: left;
 			margin-bottom: 20px;
 		}
-		section > div > h2 {
+		section > div > h3 {
 			padding: 10px 0;
 			text-align: center;
 		}
@@ -90,18 +90,22 @@
 			justify-content: space-around;
 			align-items:flex-start;
 		}
+		#links > div {
+			width: 100%;
+		}
+
 		@media only screen and (max-width: 600px) {
 			section {
 				flex-direction: column;
 			}
-			strong, h1 {
+			.text-container > strong, h2 {
 				font-size: 2vh;
 			}
 			video {
 				width: 100%;
 			}
-			h2 {
-				padding-left: 10vw;
+			h3 {
+				padding-left: 0;
 			}
 			p {
 				padding: 5px;
@@ -112,11 +116,12 @@
 <body>
 	<section>
 		<div class="text-container">
-			<strong>"How come you buy<br>the domain name from my book but not me?"</strong>
+			<h1>INTERDIMENSIONAL CHAMPIONS CLUB</h1>
+			<strong>"How come you buy<br>the domain name from<br>my book but not me?"</strong>
 			<a href="https://championsclub.gg/">
-				<h1>Dr. Disrespect</h1>
+				<h2>Dr. Disrespect</h2>
 			</a>
-			<iframe width="420" height="236.25" src="https://www.youtube.com/embed/WFyibDaflRU?start=1932&amp;end=1953" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="100%" height="236.25" src="https://www.youtube.com/embed/WFyibDaflRU?start=1932&amp;end=1953" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<video controls autoplay loop muted>
 			<source src="How come you coach him but not me_ - Bloodsport.mp4"
@@ -130,12 +135,12 @@
 	</section>
 	<section></section>
 	<section>
-		<h2>About Dr. Disrespect</h2>
+		<h3>About Dr. Disrespect</h3>
 		<p>Dr Disrespect is the Two Time Consecutive Blockbuster Video Game Champion (1993-1994). He is known for his iconic 6’8 frame, 37 inch vertical leap, and the Bullet Proof Mullet aka the Black Steel that runs down his spine. His sunglasses are Google Prototype Scopes with built-in LCD LED 1080p 3D Sony technology. His upper lip is adorned by the Ethiopian Poisonous Caterpillar aka Slick Daddy. He rules the Arena with violence, speed, and momentum; and his reign has just begun.	</p>
 	</section>
 	<section id="links">
 		<div>
-			<h2>Donate to a good cause</h2>
+			<h3>Donate to a good cause</h3>
 			<div class="button-container">
 				<a href="https://nul.org/index.php/donate">
 					<button>National Urban League</button>
@@ -149,7 +154,7 @@
 			</div>
 		</div>
 		<div>
-			<h2>Shameless self promotion</h2>
+			<h3>Shameless self promotion</h3>
 			<div class="button-container">	
 				<a href="https://pitypattern.bandcamp.com/">
 					<button>Pity Pattern</button>
